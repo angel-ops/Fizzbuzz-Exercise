@@ -126,7 +126,7 @@ def main():
     if diagonal_1 or diagonal_2:
       juego_sigue = False
 
-    elif diagonal_1:
+    if diagonal_1:
       return tablero[4]
     elif diagonal_2:
       return tablero[4]
